@@ -1,0 +1,327 @@
+body {
+    background: #999
+  }
+  
+  #lowerBody {
+    position: absolute;
+    top: 180px;
+    left: 100px;
+    width: 100px;
+    height: 50px;
+    overflow: hidden;
+  }
+  
+  #lowerBodyCurve {
+    width: 200px;
+    height: 105px;
+    background: navy;
+    border-radius: 150px / 50px;
+    position: absolute;
+    top: -55px;
+    left: -50px;
+  }
+  
+  #upperBody {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+  }
+  
+  #upperBodyCurve {
+    width: 200px;
+    height: 105px;
+    background: blue;
+    border-radius: 150px / 50px;
+    position: absolute;
+    top: -10px;
+    left: -50px;
+  }
+  
+  #leftBackPackArm {
+    position: absolute;
+    top: 100px;
+    left: 88px;
+    width: 12px;
+    height: 50px;
+    background: green;
+  }
+  
+  #leftUpperArm {
+    position: absolute;
+    top: 100px;
+    left: 68px;
+    width: 20px;
+    height: 80px;
+    background: blue;
+    border-radius: 100px / 50px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 200px;
+  }
+  
+  #leftLowerArm {
+    position: absolute;
+    top: 150px;
+    left: 68px;
+    width: 20px;
+    height: 80px;
+    background: #eebb99;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  
+  #rightBackPackArm {
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    width: 12px;
+    height: 50px;
+    background: green;
+  }
+  
+  #rightUpperArm {
+    position: absolute;
+    top: 100px;
+    left: 212px;
+    width: 20px;
+    height: 80px;
+    background: blue;
+    border-radius: 100px / 50px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 200px;
+  }
+  
+  #rightLowerArm {
+    position: absolute;
+    top: 150px;
+    left: 212px;
+    width: 20px;
+    height: 80px;
+    background: #eebb99;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  
+  #head {
+    position: absolute;
+    top: 0px;
+    left: 100px;
+    width: 100px;
+    height: 150px;
+    overflow: hidden;
+  }
+  
+  #headCurve {
+    width: 200px;
+    height: 65px;
+    background: white;
+    border-radius: 150px / 50px;
+    position: absolute;
+    top: 40px;
+    left: -50px;
+  }
+  
+  #rightEar {
+    position: absolute;
+    top: 30px;
+    left: 80px;
+    width: 20px;
+    height: 50px;
+    background: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+  
+  #leftEar {
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    width: 20px;
+    height: 50px;
+    background: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+  
+  #face {
+    position: absolute;
+    top: 50px;
+    left: 15px;
+    width: 70px;
+    height: 45px;
+    background: #eebb99;
+    border-radius: 100px / 70px;
+  }
+  
+  #eyeLeft {
+    position: absolute;
+    top: 15px;
+    left: 18px;
+    width: 5px;
+    height: 5px;
+    background: black;
+    border-radius: 100px;
+  }
+  
+  #eyeRight {
+    position: absolute;
+    top: 15px;
+    left: 47px;
+    width: 5px;
+    height: 5px;
+    background: black;
+    border-radius: 100px;
+  }
+  
+  #mouth {
+    position: absolute;
+    top: 17px;
+    left: 25px;
+    width: 20px;
+    height: 10px;
+    border-bottom: 2px solid black;
+    border-radius: 100px / 50px;
+  }
+  
+  #rightUpperLeg {
+    position: absolute;
+    top: 200px;
+    left: 180px;
+    width: 20px;
+    height: 80px;
+    background: navy;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  
+  #leftUpperLeg {
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    width: 20px;
+    height: 80px;
+    background: navy;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  
+  #rightUpperLeg {
+    position: absolute;
+    top: 200px;
+    left: 180px;
+    width: 20px;
+    height: 80px;
+    background: navy;
+    border-radius: 100px / 50px;
+  }
+  
+  #leftUpperLeg {
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    width: 20px;
+    height: 80px;
+    background: navy;
+    border-radius: 100px / 50px;
+  }
+  
+  #leftLowerLeg {
+    position: absolute;
+    top: 260px;
+    left: 100px;
+    width: 20px;
+    height: 80px;
+    background: #eebb99;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-radius: 100px / 50px;
+  }
+  
+  #rightLowerLeg {
+    position: absolute;
+    top: 260px;
+    left: 180px;
+    width: 20px;
+    height: 80px;
+    background: #eebb99;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-radius: 100px / 50px;
+  }
+  
+  #leftSock {
+    position: absolute;
+    top: 330px;
+    left: 95px;
+    width: 30px;
+    height: 20px;
+    background: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-radius: 100px / 50px;
+  }
+  
+  #rightSock {
+    position: absolute;
+    top: 330px;
+    left: 175px;
+    width: 30px;
+    height: 20px;
+    background: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-radius: 100px / 50px;
+  }
+  
+  #rightShoe {
+    position: absolute;
+    top: 340px;
+    left: 180px;
+    width: 20px;
+    height: 30px;
+    background: black;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-radius: 100px / 50px;
+  }
+  
+  #rightShoeFoot {
+    position: absolute;
+    top: 19px;
+    left: 4px;
+    width: 20px;
+    height: 30px;
+    background: black;
+    transform: rotate(155deg);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-radius: 100px / 50px;
+  }
+  
+  #leftShoe {
+    position: absolute;
+    top: 340px;
+    left: 100px;
+    width: 20px;
+    height: 30px;
+    background: black;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-radius: 100px / 50px;
+  }
+  
+  #leftShoeFoot {
+    position: absolute;
+    top: 19px;
+    left: -4px;
+    width: 20px;
+    height: 30px;
+    background: black;
+    transform: rotate(205deg);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-radius: 100px / 50px;
+  }
+  
